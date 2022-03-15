@@ -1,5 +1,7 @@
 #include <stdio.h>
-#include "Avancement_M.h"
+#include <stdlib.h>
+#include <string.h>
+//#include "Avancement_M.h"
 
 struct Mangas {
     char nom[20];
