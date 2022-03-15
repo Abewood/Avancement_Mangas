@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "manage_file.h"
 //#include "Avancement_M.h"
 
 struct Mangas {
@@ -64,6 +65,8 @@ int main()
     printf("Nombre lus : %i \n", OP.chapitres);
     rm_chapitres(1050, &OP);
     printf("Nombre lus : %i \n", OP.chapitres);
-    printf("----------------------------------");
+    printf("---------------------------------- \n");
+    
+    read_file();
     return 0;
 }
